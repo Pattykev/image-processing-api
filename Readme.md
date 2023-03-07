@@ -16,7 +16,7 @@ The server will listen on port 3000.
 ## Endpoint to resize images
 + ``htpp://localhost:3000/api/images ``: it will display available images
 
-## Query argument
+## Query arguments
 + ``filename ``: image's name which can be endcadaport, fjord, icelandwaterfall, paltunnel, santamonica
 + ``width``: a positif numerical value
 + ``height``: a positif numerical value
