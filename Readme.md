@@ -1,13 +1,13 @@
 # Scripts
-+ build: npm run build
++ **build**: npm run build
 
-+ lint: npm run lint
++ **lint**: npm run lint
 
-+ prettify: npm run prettify
++ **prettify**: npm run prettify
 
-+ run unit tests: npm run tests
++ **run tests**: npm run tests
 
-+ start server: npm run start
++ **start server**: npm run start
 
 # Usage
 
@@ -21,8 +21,8 @@ The server will listen on port 3000.
 + ``width``: a positif numerical value
 + ``height``: a positif numerical value
 
-+ ``htpp://localhost:3000 ``: giving brief instructions
-+ ``htpp://localhost:3000/api/images?filename=fjord ``: show the original image
-+ ``htpp://localhost:3000/api/images?filename=fjord&width=10&height=10 ``: resize the original image and save to this path ``images/thumbnails`` with the name fjord-10x10.jpg
-+ ``htpp://localhost:3000/api/images?filename=fjord&width=10&height=-10 ``: return a message for saying that the value for the parameter is invalid
-+ ``htpp://localhost:3000/api/images?filename=fjord&width=10 ``: return a message for saying that the parameter is missing
++ ``http://localhost:3000 ``: giving brief instructions
++ ``http://localhost:3000/api/images?filename=fjord ``: show the original image
++ ``http://localhost:3000/api/images?filename=fjord&width=10&height=10 ``: resize the original image and save to this path ``images/thumbnails`` with the name fjord-10x10.jpg
++ ``http://localhost:3000/api/images?filename=fjord&width=10&height=-10 ``: return a message for saying that the value for the parameter is invalid
++ ``http://localhost:3000/api/images?filename=fjord&width=10 ``: return a message for saying that the parameter is missing
